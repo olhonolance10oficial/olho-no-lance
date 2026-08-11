@@ -10,7 +10,7 @@ export function SiteLogo({ className = "" }: { className?: string }) {
       <img
         src="/logo_olho_no_lance.png"
         alt="Olho no Lance"
-        className="h-16 w-auto object-contain"
+        className="h-28 w-auto object-contain"
       />
     </Link>
   )
