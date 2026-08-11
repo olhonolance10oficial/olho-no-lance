@@ -16,8 +16,8 @@ export type Video = {
 }
 
 export const CAMPOS: Record<CampoId, { nome: string; label: string }> = {
-  "campo-1": { nome: "Campo 1", label: "CAMPO 1" },
-  "campo-2": { nome: "Campo 2", label: "CAMPO 2" },
+  "campo-1": { nome: "Fluminensinho Campo 1", label: "FLUMINENSINHO CAMPO 1" },
+  "campo-2": { nome: "Fluminensinho Campo 2", label: "FLUMINENSINHO CAMPO 2" },
 }
 
 /** Nome do bucket público no Supabase Storage. */
