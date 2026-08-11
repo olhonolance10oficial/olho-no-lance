@@ -15,25 +15,27 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.olhonolancetv.com.br'),
   title: 'OLHO NO LANCE',
   description: 'Assista aos melhores lances e gols dos campos 1 e 2.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
+  openGraph: {
+    title: 'OLHO NO LANCE',
+    description: 'Assista aos melhores lances e gols dos campos 1 e 2.',
+    url: 'https://www.olhonolancetv.com.br',
+    siteName: 'OLHO NO LANCE',
+    images: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/logo_olho_no_lance.png',
+        width: 512,
+        height: 512,
+        alt: 'Olho no Lance',
       },
     ],
-    apple: '/apple-icon.png',
+    type: 'website',
+  },
+  icons: {
+    icon: '/logo_olho_no_lance.png',
+    apple: '/logo_olho_no_lance.png',
   },
 }
 
